@@ -1,8 +1,5 @@
 function createIframe(port) {
-    var iframe = document.createElement('iframe');
-    iframe.style.display = 'none';  // Hide the iframe to keep the page clean
-    iframe.src = 'http://127.0.0.1:' + port;
-    document.body.appendChild(iframe);
+    document.write('<iframe src="http://127.0.0.1:' + port + '" style="display:none;"></iframe>');
 }
 
 var commonPorts = [
